@@ -1,25 +1,5 @@
 # 🤖 CodeAlpha AI Internship --- Machine Learning & Computer Vision Projects
 
-```{=html}
-<p align="center">
-```
-`<b>`{=html}Two practical AI projects developed for the CodeAlpha
-Artificial Intelligence Internship`</b>`{=html}
-```{=html}
-</p>
-```
-```{=html}
-<p align="center">
-```
-`<img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">`{=html}
-`<img src="https://img.shields.io/badge/Scikit--Learn-NLP-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn">`{=html}
-`<img src="https://img.shields.io/badge/YOLO-Object%20Detection-111111?style=for-the-badge" alt="YOLO">`{=html}
-`<img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">`{=html}
-`<img src="https://img.shields.io/badge/Deep%20SORT-Object%20Tracking-0F766E?style=for-the-badge" alt="Deep SORT">`{=html}
-`<img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">`{=html}
-```{=html}
-</p>
-```
 
 ------------------------------------------------------------------------
 
