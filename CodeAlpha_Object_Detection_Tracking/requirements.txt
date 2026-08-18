@@ -1,0 +1,26 @@
+# CodeAlpha Task 4 - Object Detection and Tracking
+# Tested against the project's actual conda environment (codealpha_cv):
+#   Python 3.11.15, Windows, CPU-only (no CUDA)
+#
+# Install with:
+#   pip install -r requirements.txt
+
+# --- Core detection / tracking / video ---
+ultralytics>=8.4.0        # YOLO models, tested with 8.4.120
+deep-sort-realtime>=1.3   # Deep SORT multi-object tracker
+opencv-python>=4.9        # video I/O, drawing, (optional) live display; tested with OpenCV 5.0.0
+numpy>=1.26               # array operations; tested with NumPy 2.4.6
+
+# --- Deep learning backend (CPU build) ---
+torch>=2.2                # tested with 2.13.0+cpu
+torchvision>=0.17
+
+# --- Compatibility fix ---
+# deep-sort-realtime imports pkg_resources, which was removed from newer
+# setuptools. Without this pin you will hit:
+#   ModuleNotFoundError: No module named 'pkg_resources'
+setuptools<81
+
+# --- Notebook environment ---
+jupyter>=1.0
+ipython>=8.0
